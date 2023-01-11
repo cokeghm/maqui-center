@@ -1,0 +1,185 @@
+/*----------------------------------------------------------- GENERAL-----------------------------------------------------------*/
+.container-fluid{
+  max-width: 100%;
+  padding: 0px;
+  width: 100%;
+}
+
+/*----------------------------------------------------------- NAVBAR-----------------------------------------------------------*/
+.navbar {
+  height: 3rem;
+  background-color: rgb(244, 244, 246);
+  margin: 0px;
+}
+
+.navbar-nav{
+  margin-left:160px;
+}
+.navbar a {
+  color: #32373b;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0px 20px 0px 20px;
+  padding: 0.7rem;
+}
+
+/* Specific styles for active links */
+.nav-link.active {
+  color: rgb(255, 196, 13)  !important;
+  border-bottom: 3px solid rgb(255, 196, 13);
+}
+
+.nav-link:hover {
+  color: rgb(255, 196, 13);
+  border-bottom: 3px solid rgb(255, 196, 13);
+  transition: 0.2s;
+}
+
+.active {
+  color: rgb(255, 196, 13);
+}
+.drop-item {
+  color: rgb(255, 196, 13);
+  background-color: white;
+  width: auto;
+}
+.drop-item:hover {
+  background-color: white;
+  color: rgb(255, 196, 13);
+  transition: 0.2s;
+  width: auto;
+}
+
+.basic-nav-dropdown:hover {
+  color: rgb(255, 196, 13);
+  border-bottom: 3px solid rgb(255, 196, 13);
+  /* transition: 0.2s; */
+}
+
+.candado {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.login.nav-link {
+  color: rgb(249, 191, 0);
+}
+.login.nav-link:hover:hover {
+  color: #32373b;
+  border-bottom: 3px solid #32373b;
+  transition: 0.2s;
+}
+
+.register.nav-link{
+  color: rgb(249, 191, 0);
+  margin-right: 220px;
+}
+.register.nav-link:hover:hover {
+  color: #32373b;
+  border-bottom: 3px solid #32373b;
+  transition: 0.2s;
+  }
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+/*----------------------------------------------------------- LOGO BAR -----------------------------------------------------------*/
+
+.logobar{
+margin: 30px 0px 30px 160px;
+text-align: left;
+}
+
+.img-logo{
+  align-items: center;
+
+}
+.phone-img{
+margin: auto;
+margin-top:38px;
+margin-right: 10px;
+text-align: right;
+}
+.tel-icon {
+
+  border: rounded;
+  color: rgb(255, 196, 13);
+  transform: scaleX(-1);
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 6px 1px rgb(212, 212, 221);
+  padding: 0.6em 0.6em;
+}
+
+.fono {
+    
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contacto {
+  margin-top: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: left;
+}
+/*----------------------------------------------------------- SEARCH BAR-----------------------------------------------------------*/
+.izquierda{
+  margin-left:170px;
+}
+.derecha {
+  padding-left: 20px;
+}
+
+.searchbar {
+  background-color: black;
+}
+/*----------------------------------------------------------- BANNER -----------------------------------------------------------*/
+
+.carousel-indicators li {
+  background-color: rgb(153, 153, 153);
+  background-color: rgba(70, 70, 70, 0.25);
+  border-style: none;
+  border-top: dotted;
+  width: 10%;
+  border-width: 5px;
+  border-color: #66BFBF;
+}
+
+.carousel-indicators .active {
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  border-color: #66BFBF;
+}
+
+
+
+/*----------------------------------------------------------- CATEGORIAS-----------------------------------------------------------*/
+.titulo-categorias{  
+  margin: auto ;
+  font-weight: bold;
+  font-size: large;
+  width: fit-content;
+  text-align: center;
+  margin-top:30px;
+  margin-bottom:30px;
+  border-bottom: 3px solid rgb(255, 196, 13);
+  }
+/*----------------------------------------------------------- MAS VENDIDOS-----------------------------------------------------------*/
+
+.masvendidos{
+  background-color: aliceblue;
+}
+/*----------------------------------------------------------- FOOTER-----------------------------------------------------------*/
+
+footer{
+  background-color: lightgray;
+}
