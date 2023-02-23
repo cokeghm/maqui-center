@@ -6,7 +6,7 @@ const MasVendidos = () => {
     <Container>
             <Row>
                   <h3 className="titulo-categorias">
-                    Más Vendidos
+                    MAS VENDIDOS
                   </h3>
                   <a href="#">Ver Productos &gt; </a>
                 

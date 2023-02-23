@@ -1,8 +1,8 @@
-        import {Button, Container, Form, Navbar} from 'react-bootstrap';
+        import {Button, Form, Navbar} from 'react-bootstrap';
      
         function SearchBar() {
           return (
-            <Navbar   expand="lg">
+            <Navbar expand="lg">
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                   <Form className="d-flex izquierda">

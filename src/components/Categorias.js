@@ -7,62 +7,70 @@ import cat5 from "../assets/img/cat-5.jpg";
 
 function Categorias() {
   return (
-    <div>
+    <div class="categorias">
       <h4 className="titulo-categorias">CATEGORIAS</h4>
+      <br></br>
+      <h5 className="subtitulo-cat">MUCHAS GRUAS EN STOCK Y DIFERENTES BUENAS OFERTAS.<br></br>MAQUINAS NUNCA USADAS EN CHILE IGUAL QUE NUEVAS.</h5>
       <Container>
         <Row>
           <Col md="4">
-            <Image fluid src={cat1} alt="" />
-            <h5 href="/home">Barredoras y lavadoras de piso</h5>
-          </Col>
-          <Col md="4" >
-            <Image fluid src={cat2} alt="" />
-            <h5>Equipos de chancado, molienda y clasificacion</h5>
+            <Row className="cat">
+              <Col><Image className= "img-cat" fluid src={cat1} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">BARREDORAS Y LAVADORAS DE PISO</a></Col>
+            </Row>
           </Col>
           <Col md="4">
-            <Image fluid src={cat3} alt="" />
-            <h5>Generadores</h5>
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat2} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">EQUIPOS DE CHANCADO, MOLIENDA Y CLASIFICACION</a></Col>
+            </Row>
+          </Col>
+          <Col md="4">
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat3} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">GENERADORES</a></Col>
+            </Row>
           </Col>
         </Row>
         <Row>
         <Col md="4">
-            <Image fluid src={cat4} alt="" />
-            <div class="inner-text">
-              <h5>Gruas Horquillas</h5>
-            </div>
-          </Col>
-          <Col md="4">
-            <Image fluid src={cat5} alt="" />
-            <div class="inner-text">
-              <h5>Grúas pluma</h5>
-            </div>
-          </Col >
-          <Col md="4">
-            <Image fluid src={cat5} alt="" />
-            <div class="inner-text">
-              <h5>Maquinas Metalmecánicas</h5>
-            </div>
-          </Col >
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat4} alt="" /></Col>
+              <Col  className="titulo"><a className="cat" href="/equipos/cat4">GRUAS HORQUILLA</a></Col>
+            </Row>
+        </Col>
+        <Col md="4">
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat5} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">GRUAS PLUMA</a></Col>
+            </Row>
+        </Col>
+        <Col md="4">
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat5} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">MAQUINAS METALMECANICAS</a></Col>
+            </Row>
+        </Col>
         </Row >
         <Row>
         <Col md="4">
-          <Image fluid src={cat5} alt="" />
-            <div class="inner-text">
-              <h5>Maquinas para la construcción</h5>
-            </div>
-          </Col>
-          <Col md="4">
-            <Image fluid src={cat5} alt="" />
-            <div class="inner-text">
-              <h5>Mini cargadores</h5>
-            </div>
-          </Col >
-          <Col md="4">
-             <Image fluid src={cat5} alt="" />
-            <div class="inner-text">
-              <h5>Puente grúa</h5>
-            </div>
-          </Col >
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat5} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">MAQUINAS PARA LA CONSTRUCCION</a></Col>
+            </Row>
+        </Col>
+        <Col md="4">
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat5} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">MINICARGADORES</a></Col>
+            </Row>
+        </Col>
+        <Col md="4">
+            <Row className="cat">
+              <Col><Image fluid className= "img-cat" src={cat5} alt="" /></Col>
+              <Col className="titulo"><a className="cat" href="/">PUENTE GRUA</a></Col>
+            </Row>
+        </Col>
         </Row >
       </Container>
     </div >

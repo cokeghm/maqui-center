@@ -8,17 +8,16 @@ function LogoBar() {
   <Container className="logobar">
     <Row>
       <Col>
-        <Image className="img-logo" src={LogoImg} alt="logo display" style={{ width: "22rem" }}/>  
+        <Image className="img-logo" src={LogoImg} alt="logo display"/>  
       </Col>
-      <Col md="auto" className="phone-img">
+      <Col flex className="phone-img">
         <PhoneFilled className="tel-icon" />
       </Col>
-      <Col md lg="2">
-        <Row className="fono">Fono</Row>
-        <Row className="contacto">(+56) 2 2623 3000</Row>
+      <Col >
+        <Row className="fono"><p style={{color:'black'}}>Contacto</p>(+56) 2 2623 3000</Row>
       </Col>
-      </Row>
-      </Container>
+    </Row>
+  </Container>
       </div>
   )
 }

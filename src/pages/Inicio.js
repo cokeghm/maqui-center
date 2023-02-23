@@ -1,14 +1,13 @@
-import "../styles/Inicio.css";
-
 import NavBar from "../components/NavBar";
 import LogoBar from "../components/LogoBar";
 import SearchBar from "../components/SearchBar";
 import Banner from '../components/Banner';
-import Nosotros from '../components/Nosotros'
 import Categorias from '../components/Categorias';
 import MasVendidos from '../components/MasVendidos';
+import Nosotros from '../components/Nosotros'
 import Footer from '../components/Footer';
 import {Container} from 'react-bootstrap';
+import "../styles/Inicio.css";
 
 function Inicio() {
   return (
@@ -18,7 +17,6 @@ function Inicio() {
         <SearchBar />
         <Banner />
         <Categorias />
-        <hr></hr>
         <MasVendidos />
         <Nosotros />
         <Footer />

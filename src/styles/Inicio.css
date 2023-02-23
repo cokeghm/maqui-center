@@ -2,14 +2,13 @@
 .container-fluid{
   max-width: 100%;
   padding: 0px;
-  width: 100%;
 }
+
 
 /*----------------------------------------------------------- NAVBAR-----------------------------------------------------------*/
 .navbar {
   height: 3rem;
-  background-color: rgb(244, 244, 246);
-  margin: 0px;
+  background-color: #f0f0f7;
 }
 
 .navbar-nav{
@@ -23,7 +22,7 @@
 }
 
 /* Specific styles for active links */
-.nav-link.active {
+.nav-link:active {
   color: rgb(255, 196, 13)  !important;
   border-bottom: 3px solid rgb(255, 196, 13);
 }
@@ -37,11 +36,11 @@
 .active {
   color: rgb(255, 196, 13);
 }
-.drop-item {
+/* .drop-item {
   color: rgb(255, 196, 13);
   background-color: white;
   width: auto;
-}
+} */
 .drop-item:hover {
   background-color: white;
   color: rgb(255, 196, 13);
@@ -61,7 +60,7 @@
   margin-right: 10px;
 }
 .login.nav-link {
-  color: rgb(249, 191, 0);
+  color: rgb(255, 196, 13);
 }
 .login.nav-link:hover:hover {
   color: #32373b;
@@ -70,8 +69,8 @@
 }
 
 .register.nav-link{
-  color: rgb(249, 191, 0);
-  margin-right: 220px;
+  color: rgb(255, 196, 13);
+  margin-right: 150px;
 }
 .register.nav-link:hover:hover {
   color: #32373b;
@@ -89,19 +88,16 @@
 /*----------------------------------------------------------- LOGO BAR -----------------------------------------------------------*/
 
 .logobar{
-margin: 30px 0px 30px 160px;
+margin: 30px 0px 20px 160px;
 text-align: left;
 }
-
 .img-logo{
   align-items: center;
-
+  width: 22rem;
 }
 .phone-img{
 margin: auto;
 margin-top:38px;
-margin-right: 10px;
-text-align: right;
 }
 .tel-icon {
 
@@ -121,14 +117,11 @@ text-align: right;
   margin-bottom: 0px;
   font-size: 1rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
-.contacto {
-  margin-top: 2px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  align-items: left;
+p{
+  padding-left:0px !important;
 }
 /*----------------------------------------------------------- SEARCH BAR-----------------------------------------------------------*/
 .izquierda{
@@ -138,9 +131,6 @@ text-align: right;
   padding-left: 20px;
 }
 
-.searchbar {
-  background-color: black;
-}
 /*----------------------------------------------------------- BANNER -----------------------------------------------------------*/
 
 .carousel-indicators li {
@@ -169,17 +159,81 @@ text-align: right;
   font-size: large;
   width: fit-content;
   text-align: center;
-  margin-top:30px;
-  margin-bottom:30px;
+  border-bottom: 25px;
   border-bottom: 3px solid rgb(255, 196, 13);
+  }
+  .subtitulo-cat{
+  color:  rgb(255, 196, 13);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  }
+  .categorias{
+    padding: 25px 0px 25px 0px;
+    background-color: #f4f4f6;
+    text-align: left;
+  }
+
+  .cat{
+    background-color: white;
+  }
+  .cat:hover{
+    color:rgb(255, 196, 13) !important; 
+    transition: 0.2s;
+  }
+  .img-cat{
+    max-width: 240px;
+  }
+  a{
+    font-weight: bold;
+    color:rgb(23, 22, 22) !important;
+    text-decoration:none;
+  }
+  .titulo{
+    margin-top: 40px !important;
+    
   }
 /*----------------------------------------------------------- MAS VENDIDOS-----------------------------------------------------------*/
 
 .masvendidos{
-  background-color: aliceblue;
+
+  padding: 25px 0px 60px 0px;
+  background-color: #eaeaf1;
+}
+/*----------------------------------------------------------- NOSOTROS-----------------------------------------------------------*/
+
+.nosotros{
+  padding: 25px 0px 60px 0px;
+  text-align: left;
+  text-align: justify;
+  background-color: #babacf;
+}
+
+.aboutus-img{
+  width: 400px !important;
+  margin-left: 30px;
+}
+#Nosotros{
+  color: rgb(255, 196, 13);
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+text{ 
+  max-width: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+}
+
+.about-us{
+  width: 500px;
 }
 /*----------------------------------------------------------- FOOTER-----------------------------------------------------------*/
 
 footer{
-  background-color: lightgray;
+  background-color: black;
+  padding:20px;
+  color: rgb(255, 196, 13);
+  font-weight: bold;
+  font-size: 15px;
 }
